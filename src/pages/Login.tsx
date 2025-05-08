@@ -7,6 +7,10 @@ export const Login = () => {
     return (
         <div>
             <h1>Login</h1>
+            <h1>Login</h1>
+            <h1>Login</h1>
+            <h1>Login</h1>
+            <h1>Login</h1>
             <button onClick={handleClick}>Guardar token</button>
         </div>
     );
