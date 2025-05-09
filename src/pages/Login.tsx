@@ -1,3 +1,4 @@
+import { GetPersona } from "../components/GetPersona";
 export const Login = () => {
     const handleClick = () => {
         localStorage.setItem("token", "insertando valor");
@@ -7,11 +8,7 @@ export const Login = () => {
     return (
         <div>
             <h1>Login</h1>
-            <h1>Login</h1>
-            <h1>Login</h1>
-            <h1>Login</h1>
-            <h1>Login</h1>
-            <h2>Cambios jonathan</h2>
+            <GetPersona />
             <button onClick={handleClick}>Guardar token</button>
         </div>
     );
